@@ -1,4 +1,4 @@
-skin mfm moonfox-mini mfm/
+skin mfm moonfox-mini theme/
 override chrome://browser/skin/Toolbar-glass.png chrome://mfm/skin/Toolbar.png
 override chrome://browser/skin/Toolbar.png chrome://mfm/skin/Toolbar.png
 override chrome://browser/skin/Toolbar-inverted.png chrome://mfm/skin/Toolbar.png
