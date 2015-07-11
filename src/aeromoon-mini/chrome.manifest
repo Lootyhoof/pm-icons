@@ -1,0 +1,4 @@
+skin amm aeromoon-mini theme/
+override chrome://browser/skin/Toolbar-glass.png chrome://amm/skin/Toolbar.png
+override chrome://browser/skin/Toolbar.png chrome://amm/skin/Toolbar.png
+override chrome://browser/skin/Toolbar-inverted.png chrome://amm/skin/Toolbar.png
