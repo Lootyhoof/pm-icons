@@ -1,0 +1,4 @@
+skin oxy-ico oxy-ico theme/
+override chrome://browser/skin/Toolbar-glass.png chrome://oxy-ico/skin/Toolbar.png
+override chrome://browser/skin/Toolbar.png chrome://oxy-ico/skin/Toolbar.png
+override chrome://browser/skin/Toolbar-inverted.png chrome://oxy-ico/skin/Toolbar.png
