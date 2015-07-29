@@ -1,0 +1,7 @@
+# Provide a "skin" so the browser can access our folder.
+skin exampleSkinName example-name theme/
+
+# Provide overrides for the default toolbar icons, using ours.
+override chrome://browser/skin/Toolbar.png chrome://exampleSkinName/skin/Toolbar.png
+override chrome://browser/skin/Toolbar-inverted.png chrome://exampleSkinName/skin/Toolbar.png
+override chrome://browser/skin/Toolbar-glass.png chrome://exampleSkinName/skin/Toolbar.png
