@@ -1,4 +1,11 @@
-skin mfm moonfox-mini theme/
-override chrome://browser/skin/Toolbar-glass.png chrome://mfm/skin/Toolbar.png
-override chrome://browser/skin/Toolbar.png chrome://mfm/skin/Toolbar.png
-override chrome://browser/skin/Toolbar-inverted.png chrome://mfm/skin/Toolbar.png
+# Provide a "skin" so the browser can access our folder.
+skin theme moonfox-mini theme/
+
+# Provide overrides for the default toolbar icons, using ours.
+override chrome://browser/skin/Toolbar.png chrome://theme/skin/Toolbar.png os!=Linux
+override chrome://browser/skin/Toolbar-inverted.png chrome://theme/skin/Toolbar.png os!=Linux
+override chrome://browser/skin/Toolbar-glass.png chrome://theme/skin/Toolbar.png os!=Linux
+
+# Linux-specific styling, due to lacking a traditional toolbar image.
+style chrome://browser/content/browser.xul chrome://theme/skin/linux.css os=Linux
+style chrome://global/content/customizeToolbar.xul chrome://theme/skin/linux.css os=Linux

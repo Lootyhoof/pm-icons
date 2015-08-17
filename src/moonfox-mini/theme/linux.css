@@ -1,0 +1,138 @@
+#back-button .toolbarbutton-icon,
+#forward-button .toolbarbutton-icon,
+#reload-button .toolbarbutton-icon,
+#stop-button .toolbarbutton-icon,
+#home-button .toolbarbutton-icon,
+#print-button .toolbarbutton-icon,
+#downloads-button .toolbarbutton-icon,
+#history-button .toolbarbutton-icon,
+#bookmarks-button .toolbarbutton-icon,
+#bookmarks-menu-button .toolbarbutton-icon,
+#new-window-button .toolbarbutton-icon,
+#cut-button .toolbarbutton-icon,
+#copy-button .toolbarbutton-icon,
+#paste-button .toolbarbutton-icon,
+#fullscreen-button .toolbarbutton-icon,
+#zoom-out-button .toolbarbutton-icon,
+#zoom-in-button .toolbarbutton-icon,
+#sync-button:not([status="active"]) .toolbarbutton-icon,
+#feed-button .toolbarbutton-icon,
+#new-tab-button .toolbarbutton-icon {
+  list-style-image: url("chrome://theme/skin/Toolbar.png") !important;
+}
+
+#back-button {
+  -moz-image-region: rect(0, 18px, 18px, 0) !important;
+}
+
+#forward-button {
+  -moz-image-region: rect(0, 36px, 18px, 18px) !important;
+}
+
+window:not([chromehidden~=toolbar]) #navigator-toolbox[iconsize=large][mode=icons] > :-moz-any(#nav-bar[currentset*="unified-back-forward-button"],#nav-bar:not([currentset])) > #unified-back-forward-button > #back-button {
+  -moz-image-region: rect(18px, 20px, 38px, 0) !important;
+}
+
+#stop-button {
+  -moz-image-region: rect(0, 54px, 18px, 36px) !important;
+}
+
+#reload-button {
+  -moz-image-region: rect(0, 72px, 18px, 54px) !important;
+}
+
+#home-button.bookmark-item {
+  list-style-image: url("chrome://theme/skin/Toolbar.png") !important;
+}
+
+#home-button {
+  -moz-image-region: rect(0, 90px, 18px, 72px) !important;
+}
+
+#downloads-button {
+  -moz-image-region: rect(0, 108px, 18px, 90px) !important;
+}
+
+#history-button {
+  -moz-image-region: rect(0, 126px, 18px, 108px) !important;
+}
+
+#bookmarks-button,
+#bookmarks-menu-button {
+  -moz-image-region: rect(0, 144px, 18px, 126px) !important;
+}
+
+#bookmarks-menu-button.bookmark-item {
+  list-style-image: url("chrome://theme/skin/Toolbar.png") !important;
+}
+
+#print-button {
+  -moz-image-region: rect(0, 162px, 18px, 144px) !important;
+}
+
+#new-tab-button {
+  -moz-image-region: rect(0, 180px, 18px, 162px) !important;
+}
+
+#new-window-button {
+  -moz-image-region: rect(0, 198px, 18px, 180px) !important;
+}
+
+#cut-button {
+  -moz-image-region: rect(0, 216px, 18px, 198px) !important;
+}
+
+#copy-button {
+  -moz-image-region: rect(0, 234px, 18px, 216px) !important;
+}
+
+#paste-button {
+  -moz-image-region: rect(0, 252px, 18px, 234px) !important;
+}
+
+#fullscreen-button {
+  -moz-image-region: rect(0, 270px, 18px, 252px) !important;
+}
+
+#zoom-out-button {
+  -moz-image-region: rect(0, 288px, 18px, 270px) !important;
+}
+
+#zoom-in-button {
+  -moz-image-region: rect(0, 306px, 18px, 288px) !important;
+}
+
+#sync-button {
+  -moz-image-region: rect(0, 324px, 18px, 306px) !important;
+}
+
+#feed-button {
+  -moz-image-region: rect(0, 342px, 18px, 324px) !important;
+}
+
+#webrtc-status-button {
+  -moz-image-region: rect(0, 360px, 18px, 342px) !important;
+}
+
+#downloads-indicator-icon,
+#status4evar-download-button #status4evar-download-icon,
+#status4evar-download-button:-moz-lwtheme-brighttext #status4evar-download-icon {
+  background: -moz-image-rect(url("chrome://theme/skin/Toolbar.png"),
+                              0, 108, 18, 90) center no-repeat !important;
+  min-width: 18px !important;
+  min-height: 18px !important;
+}
+
+#downloads-indicator:not([counter]) > #downloads-indicator-anchor > #downloads-indicator-progress-area > #downloads-indicator-counter {
+  background: -moz-image-rect(url("chrome://theme/skin/Toolbar.png"),
+                              0, 108, 18, 90) center no-repeat !important;
+  background-size: 12px !important;
+}
+
+.toolbarbutton-1[disabled=true] > .toolbarbutton-icon,
+.toolbarbutton-1[disabled=true] > .toolbarbutton-menu-dropmarker,
+.toolbarbutton-1[disabled=true] > .toolbarbutton-menubutton-dropmarker,
+.toolbarbutton-1[disabled=true] > .toolbarbutton-menubutton-button > .toolbarbutton-icon,
+.toolbarbutton-1 > .toolbarbutton-menubutton-button[disabled] > .toolbarbutton-icon {
+  opacity: .4;
+}
